@@ -5,8 +5,6 @@
  */
 
 $(document).ready(function() {
-        
-    console.log(lastviewedproducts_ajax_url);
 
     var id = $('#product_page_product_id').val();
 
@@ -15,18 +13,6 @@ $(document).ready(function() {
         if (jsonData) {
             console.log(jsonData);
         }
-//        $.ajax({
-//        type: 'get',
-//        url: lastviewedproducts_ajax_url,
-//        data: {
-//            id : id
-//        },
-//        dataType: 'json',            
-//        success: function(responseArray) {
-//            console.log(responseArray);
-//            alert(responseArray);
-//
-//        }});  
     });  
     }
 

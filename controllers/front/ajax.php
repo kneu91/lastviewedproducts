@@ -36,16 +36,6 @@ class lastviewedproductsajaxModuleFrontController extends ModuleFrontController
                 }
             }
         }
-        $responseArray=[];
-
-
-        header('Content-Type: application/json');
-        $this->ajaxRender(
-            json_encode(
-                $responseArray
-            )
-        );  
-      
     }
   
 }
